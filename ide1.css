@@ -1,0 +1,40 @@
+body
+{font-family:fantasy;
+background-color:gray;
+text-shadow:5px 9px 5px white;
+
+}
+
+
+header
+
+{text-align:center;
+border:5px ridge black;
+  background-image:url("https://www.web-eau.net/images/tuto/logo_notepad.png");
+  padding:20px;
+  color:red;
+
+  }
+ 
+
+
+
+section
+{display:flex;
+padding:20px;
+margin:0 auto;
+}
+
+ footer
+  {
+border:5px ridge black;
+color:black;
+text-align:center;
+background-image:url("https://www.web-eau.net/images/tuto/logo_notepad.png");
+ padding:40px;
+ background-position:center;
+
+} 
+  
+
+

@@ -1,0 +1,59 @@
+body
+
+{background-image:url("https://stackify.com/wp-content/uploads/2017/03/50-IDEs_1024x512-793x397.jpg");
+background-size: cover;
+
+
+}
+header
+{text-align:center;
+border:5px ridge black;
+  background-image:url("https://image.freepik.com/vecteurs-libre/fond-ecran-rayures-dorees_1183-387.jpg")
+
+
+}
+
+ 
+  section
+  {padding:20px;
+	  margin:0 auto;
+  display:flex;
+  color:white;
+  }
+  
+ article
+  
+  {padding:20px;
+  margin :0 auto;
+  }
+  
+
+ footer
+  {
+border:5px outset black;
+ position:flex;
+ color:black;
+ text-align:center;
+ background-image:url("https://image.freepik.com/vecteurs-libre/fond-ecran-rayures-dorees_1183-387.jpg");
+
+  }
+  
+img
+  {
+  animation-name: namek;
+  animation-duration: 6s;
+    
+  }
+ 
+ 
+@keyframes namek{
+  from {
+    margin-top: 500%;
+  }
+
+  to {
+    margin-top: 0%;
+    
+  }
+	
+ 

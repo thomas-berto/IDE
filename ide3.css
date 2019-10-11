@@ -1,0 +1,37 @@
+BODY
+{font-family: Webdings, sans-serif;
+color:#4E40A4;
+background-color:#F1CFF5;
+text-shadow:2px 5px 5px grey
+}
+
+
+header
+
+{text-align:center;
+border:5px ridge black; 
+  background-color:white;
+  padding:20px;
+
+
+ }
+  
+  
+section
+{display:flex;
+padding:20px;
+margin:0 auto;
+justify-content:space-around;
+
+}
+  
+  
+ footer
+  {
+border:5px ridge black;
+color:black;
+text-align:center;
+ padding:40px;
+ background-color:white;
+ 
+} 
