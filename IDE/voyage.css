@@ -1,0 +1,83 @@
+
+#menu a { 
+	display:block; 
+	color: #fff; 
+	text-decoration:none;
+}
+.tete
+{  text-transform: uppercase;}
+#menu  li, #menu  li li {
+	position: relative;
+	display:inline-block;
+	width: 110px;
+	padding: 6px 15px;
+	background-color: #777;
+	background-image: linear-gradient(rgb(243, 148, 148), rgb(184, 133, 133) 50%, rgb(138, 114, 114) 50%);
+}
+#menu  li li { background: transparent none; }
+#menu li li a { color: #444; }
+#menu  ul ul:hover    {background:#eee;  } 
+
+#menu li li:hover { background:#eee; } 
+
+#menu li + li {
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #777;
+}
+
+}
+#menu  li:hover {
+	background-color: #999;
+	background-image: linear-gradient(#ccc, #aaa 50%, #999 50%,#bbb);
+}
+
+
+#menu ul {
+	position: absolute;
+	top: 2em; left: 0;
+	max-height:0em;	
+	margin: 0; padding: 0;
+	background-color: #ddd;
+	background-image: linear-gradient(#fff,#ddd);
+	overflow: hidden;
+	transition: 1s max-height 0.3s;
+	border-radius: 0 0 8px 8px;
+}
+
+#menu  li:hover ul {
+	
+	max-height: 13em;
+}
+
+footer{
+	display: flex;
+}
+
+.dooter
+{
+
+flex-direction:column;
+background-color: transparent;
+ bottom:0;
+ height: auto;
+ width:auto;
+ font-size:13px;
+opacity: 15%;
+margin-left: auto;
+margin-right: auto;
+position: fixed;
+}
+.dooter:hover
+{opacity: 70%;
+background-color: whitesmoke;
+}
+.gooter
+{margin-right: 0%;
+opacity: 90%;
+}
+
+
+
+
+
+ 
